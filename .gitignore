@@ -1,0 +1,20 @@
+vendor/
+.env
+.env.*
+!.env.example
+*.log
+node_modules/
+storage/logs/
+*.zip
+
+# CodeIgniter specifics
+*/application/cache/*
+!*/application/cache/index.html
+*/application/logs/*
+!*/application/logs/index.html
+
+# Vendored front-end libraries — reinstallable via Bower, don't need version control
+*/assets/bower_components/
+*/assets/plugins/
+*/hashedpasswords/
+
