@@ -18,3 +18,11 @@ storage/logs/
 */assets/plugins/
 */hashedpasswords/
 
+
+# personal documents, never published
+*.pdf
+*.docx
+*Resume*
+*resume*
+*_CV*
+*Curriculum*
